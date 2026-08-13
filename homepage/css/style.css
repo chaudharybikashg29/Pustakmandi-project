@@ -1344,30 +1344,26 @@ DARK MODE
 
 }
 
-/* Scroll Animation */
+/* Homepage scroll animation */
 
-.category-card,
-.product-card,
-.feature-card,
-.seller-card,
-.testimonial-card{
-
-    opacity:0;
-
-    transform:translateY(40px);
-
-    transition:.6s;
-
+.home-page .category-card,
+.home-page .product-card,
+.home-page .feature-card,
+.home-page .seller-card,
+.home-page .testimonial-card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: .6s;
 }
 
-.active{
-
-    opacity:1;
-
-    transform:translateY(0);
-
+.home-page .category-card.active,
+.home-page .product-card.active,
+.home-page .feature-card.active,
+.home-page .seller-card.active,
+.home-page .testimonial-card.active {
+    opacity: 1;
+    transform: translateY(0);
 }
-
 /* Mobile Menu */
 
 .menu-toggle{
